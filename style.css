@@ -1,0 +1,62 @@
+/* general styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: darkgreen;
+}
+h2 {
+  text-decoration: underline;
+}
+
+/* home page styles */
+.image-gallery {
+  background-color: black;
+}
+#registration {
+  background-color: lightgrey;
+  width: 50%;
+}
+.input-wrapper {
+  margin-bottom: 1rem;
+}
+#registration label {
+  color: darkgreen;
+}
+#registration input[type="text"] {
+  border: 1px solid red;
+}
+#registration button {
+  border: 1px solid darkgrey;
+  padding: 1em 2em;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+/* list styles */
+ul {
+  list-style-type: circle;
+}
+ol {
+  list-style-type: upper-roman;
+}
+li {
+  text-transform: uppercase;
+}
+/* table styles */
+table {
+  border: 1px solid black;
+}
+thead tr {
+  background-color: grey;
+  color: white;
+}
+
+tbody tr:nth-of-type(2n) {
+  background-color: lightgrey;
+}
